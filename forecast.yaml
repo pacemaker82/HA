@@ -5,10 +5,10 @@ apex_config:
     foreColor: rgb(117, 117, 117)
   grid:
     borderColor: rgb(60, 60, 60)
-graph_span: 12h
+graph_span: 12h #might need updating as the days get longer
 span:
   start: day
-  offset: +6h
+  offset: +6h #might need updating as the days get longer
 header:
   show: true
   title: Solar PV Power Vs Forecast
