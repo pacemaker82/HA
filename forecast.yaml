@@ -1,3 +1,8 @@
+# Requires in Home Assistant:
+# apexcharts card - install via HACS
+# GivTCP add-on for Givenergy inverter (PV Power entity)
+# Solcast integration (today forecast entity)
+# This card config will show the solcast solar forecast for today, and slowly fill up with the real PV power as the day progresses.
 type: custom:apexcharts-card
 update_interval: 1min
 apex_config:
